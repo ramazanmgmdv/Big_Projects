@@ -1,29 +1,27 @@
 #include <stdio.h>
-#include "saving.h"
-#include "interface.h"
+#include <stdlib.h>
+#include <locale.h>
+#include "pol.h"
 
-int main(int argc, char **argv)
+int main()
 {
-    street *list;
+
+    setlocale (LC_CTYPE, "Russian");
+    char *str, **sep_str;
     size_t len;
+    double r;
 
-    if (argc > 1)
-    {
-        if (!(list = loading(&len, argv[1]))) return 1;
+    printf("¬ведите строку: ");
+    str = input();
 
-        interface(list, len, argv[1]);
-    }
+    sep_str = sep(str, " ", &len);
 
-    else
-    {
-        if (!(list = loading(&len, "safe.txt"))) return 1;
+    r = pol(sep_str, len);
 
-        interface(list, len, "safe.txt");
-    }
+    if (r == r) printf("–езультат: %lg", r);
+
+
+
 
     return 0;
 }
-
-
-
-

@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1682766183 source:c:\users\Аня\desktop\Задание 25.4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"pol.h"
+
+1682099276 c:\users\Аня\desktop\Задание 25.4\pol.h
+	<stdio.h>
+
+1682766183 source:c:\users\Аня\desktop\Задание 25.4\pol.c
+	"pol.h"
+	"stack.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1680954020 c:\users\Аня\desktop\Задание 25.4\stack.h
+
+1682766183 source:c:\users\Аня\desktop\Задание 25.4\stack.c
+	"stack.h"
+	<stdlib.h>
+
+1715425818 source:c:\users\user1\desktop\Задание 25.4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"pol.h"
+
+1716486325 c:\users\user1\desktop\Задание 25.4\pol.h
+	<stdio.h>
+
+1715425818 source:c:\users\user1\desktop\Задание 25.4\pol.c
+	"pol.h"
+	"stack.h"
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1715425819 c:\users\user1\desktop\Задание 25.4\stack.h
+
+1715425818 source:c:\users\user1\desktop\Задание 25.4\stack.c
+	"stack.h"
+	<stdlib.h>
+
